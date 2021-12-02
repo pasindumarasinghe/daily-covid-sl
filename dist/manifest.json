@@ -1,0 +1,11 @@
+{
+    "manifest_version": 2,
+    "name": "DailyCovidStats_SL",
+    "version": "1.0",
+    "permissions": [
+        "<all_urls>"
+    ],
+    "browser_action": {
+        "default_popup": "index.html"
+    }
+}
