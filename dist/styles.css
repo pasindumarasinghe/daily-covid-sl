@@ -1,0 +1,14 @@
+.container{
+    width: 200px;
+    height: 75px;
+}
+
+#covid-stats-sl{
+    font-weight: bold;
+    font-size:small;
+    text-decoration: underline;
+}
+
+#error{
+    color: red;
+}
