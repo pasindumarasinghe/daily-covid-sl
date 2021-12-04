@@ -12,3 +12,13 @@
 #error{
     color: red;
 }
+
+.results{
+    line-height: 5px;
+}
+#fetch-button{
+    position: absolute;
+    right: 5px;
+    height: 15px;
+    width: 10px;
+}

@@ -10,14 +10,17 @@
 </head>
 
 <body class="container">
+    <button id="fetch-button"></button>
     <div id="covid-stats-sl">Covid SL </div>
     <div id="error"></div>
-    <div class="data">Last Updated : <span id="last-updated"></span></div>
-    <div class="data">New Cases : <span id="new-cases"></span></div>
-    <div class="data">Deaths : <span id="deaths"></span></div>
+    <div class="results">
+        <p> Updated : <span id="last-updated"></span></p>
+        <p>New Cases : <span id="new-cases"></span></p>
+        <p>Deaths : <span id="deaths"></span></p>
+    </div>
 
 
-    <script src="../src/index.js"></script>
+    <script type="module" src="../dist/main.js"></script>
 </body>
 
 </html>
