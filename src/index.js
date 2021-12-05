@@ -8,8 +8,7 @@ const last_updated = document.getElementById("last-updated");
 const new_cases = document.getElementById("new-cases");
 const deaths = document.getElementById("deaths");
 const error = document.getElementById("error");
-// const results = document.getElementById("results");
-const button = document.getElementById("fetch-button");
+//const button = document.getElementById("fetch-button");
 
 // //fetch the data and put them in proper places
 const fetchData = async () => {
@@ -23,6 +22,5 @@ const fetchData = async () => {
     }
 }
 
-button.addEventListener("click", () => {
-    fetchData();
-})
+fetchData();
+
