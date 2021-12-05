@@ -1,1 +1,1 @@
-(() => { "use strict"; document.getElementById("last-updated"), document.getElementById("new-cases"); const e = document.getElementById("deaths"); document.getElementById("error"), document.getElementById("fetch-button"), e.textContent = "hellp" })();
+document.getElementById("deaths").textContent="hellp";

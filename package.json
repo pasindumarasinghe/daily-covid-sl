@@ -1,24 +1,15 @@
 {
   "name": "daily-covid-sl",
   "version": "1.0.0",
-  "description": "",
-  "type": "module",
+  "description": "Daily covid stats Sri Lanka",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/pasindumarasinghe/daily-covid-sl.git"
-  },
   "keywords": [],
   "author": "Pasindu Marasinghe",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/pasindumarasinghe/daily-covid-sl/issues"
-  },
-  "homepage": "https://github.com/pasindumarasinghe/daily-covid-sl#readme",
   "dependencies": {
     "axios": "^0.24.0"
   },
