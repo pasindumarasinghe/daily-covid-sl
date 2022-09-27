@@ -6,20 +6,18 @@ This is a simple chrome extension that displays the new covid cases & new deaths
 
 #### How to install
 
-1.Clone the repo and install.
+1. Clone the repo and install.
 
-    To clone
-    ```
-    git clone https://github.com/pasindumarasinghe/daily-covid-sl
-    ```
-    
+    To clone  
+   
+        git clone https://github.com/pasindumarasinghe/daily-covid-sl  
+   
     To install
+   
+        cd daily-covid-sl
+        npm ci
+ 
 
-    ```
-    cd daily-covid-sl
-    npm ci
-    ```
-
-2.Open Chrome.
-3.Type `chrome://extensions/` in the address bar.
-4.Click on  **Load Unpacked** and select the **daily-covid-sl/dist** directory as the extension directory.
+2. Open Chrome.
+3. Type `chrome://extensions/` in the address bar.
+4. Click on  _Load Unpacked_ and select the _daily-covid-sl/dist_ directory as the extension directory.
